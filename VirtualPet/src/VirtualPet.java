@@ -48,6 +48,36 @@ public class VirtualPet {
         return this.happy;
     }
 
-    
+    public void play(){
+        this.happy++;
+        this.weight--;
+
+        if(this.weight < 5){
+            this.weight = 5;
+        }
+
+        if(this.happy > 10){
+            this.happy = 10;
+        }
+    }
+
+    public void updateStatus(){
+        this.happy--;
+        this.energy--;
+
+        if(this.energy < 0 ){
+            this.energy = 0;
+        }
+        if(this.happy < 0 ){
+            this.happy = 0;
+        }
+
+        this.ageM ++;
+
+        if(this.ageM == 12){
+            this.ageY++;
+            this.ageM = 0;
+        }
+    }
 
 }
