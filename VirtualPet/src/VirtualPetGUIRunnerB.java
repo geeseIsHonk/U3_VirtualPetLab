@@ -1,22 +1,22 @@
-// Part B
-
-/**
- * A GUI class to run the Virtual Pet Lab
- * Requires javax.swing and java.awt
- * @author Kim Hermans
- * Image Credit: J.P. O'Hara & Jamie O'Hara
- * @November 2024
- */
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.IOException;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
-
+//// Part B
+//
+///**
+// * A GUI class to run the Virtual Pet Lab
+// * Requires javax.swing and java.awt
+// * @author Kim Hermans
+// * Image Credit: J.P. O'Hara & Jamie O'Hara
+// * @November 2024
+// */
+//
+//import javax.swing.*;
+//import java.awt.*;
+//import java.awt.event.ActionEvent;
+//import java.awt.event.ActionListener;
+//import java.io.IOException;
+//import java.util.concurrent.Executors;
+//import java.util.concurrent.ScheduledExecutorService;
+//import java.util.concurrent.TimeUnit;
+//
 //public class VirtualPetGUIRunnerB extends JFrame
 //{
 //    // Edit this value to change speed of update
